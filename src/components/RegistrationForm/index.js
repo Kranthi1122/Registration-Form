@@ -96,7 +96,7 @@ class RegistrationForm extends Component {
                 <label htmlFor="pass">LAST NAME</label>
                 <br />
                 <input
-                  type="password"
+                  type="text"
                   onChange={this.password}
                   placeholder="Last Name"
                   id="pass"
